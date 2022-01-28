@@ -12,7 +12,7 @@ class Posts extends Component {
     }
 
     componentDidMount() {
-        fetch("https://blogtai.herokuapp.com/api/posts")
+        fetch("https://postsiai.herokuapp.com/api/posts")
             .then(res => res.json())
             .then(
                 (result) => {
